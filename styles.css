@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: WorkSans;
+}
+@font-face {
+    font-family:WorkSans;
+    src: url(Fonts/WorkSans-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family:WorkSans;
+    src: url(Fonts/WorkSans-SemiBold.ttf);
+    font-weight:600;
+}
+@font-face {
+    font-family:WorkSans;
+    src: url(Fonts/WorkSans-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family:WorkSans;
+    src: url(Fonts/WorkSans-Medium.ttf);
+    font-weight: 500;
+}
+body{
+}
+/* header Section styles */
+.generic_button{
+    background-color: #A53DFF;
+    color: white;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.generic_paragraph{
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #556070;
+}
+.generic_heading{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #556070;
+    font-weight: 600;
+
+}
